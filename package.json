@@ -19,9 +19,6 @@
   "bugs": {
     "url": "https://github.com/othiym23/cls-middleware/issues"
   },
-  "dependencies": {
-    "continuation-local-storage": "~3"
-  },
   "devDependencies": {
     "continuation-local-storage": "~3",
     "express": "~3.4.3",

@@ -3,7 +3,7 @@
 module.exports = function clsify(ns) {
   if (!ns) throw new Error('CLS namespace required');
 
-  return function (req, res, next) {
+  return function clsifyMiddleware(req, res, next) {
     ns.bindEmitter(req);
     ns.bindEmitter(res);
 
